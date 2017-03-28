@@ -56,14 +56,14 @@ var education = {
 		"location"	: "Buraidah, Qassim,KSA",
 		"degree": "BA",
 		"dates"	: "2008 - 2013",
-		"major"	: ["CS"],
+		"majors"	: ["CS"],
 		"url"	: "http://www.qu.edu.sa/en/Pages/Home.aspx"
 	},
 	{
 		"name"	: "King Saud university, Comuter Collage",
 		"location"	: "Riyadh, Ksa",
 		"degree": "Masters",
-		"major"	: ["CS"],
+		"majors"	: ["CS"],
 		"dates"	: "2013 - 2015",
 		"url"	: "http://ksu.edu.sa/en"
 	}
@@ -72,7 +72,7 @@ var education = {
 	{
 		"title"	: "Front-End Web Developer Nanodegree",
 		"school": "Udacity",
-		"dates"	: 2014,
+		"dates"	: "2014",
 		"url"	: "https://www.udacity.com/"
 
 	}
@@ -85,7 +85,7 @@ var education = {
 			formattedSchoolName = formattedSchoolName.replace("%data%", school.name);
 			var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", school.degree);
 			var formattedSchoolDates = HTMLschoolDates.replace("%data%", school.dates);
-			var formattedschoolMajor = HTMLschoolMajor.replace("%data%", school.major);
+			var formattedschoolMajor = HTMLschoolMajor.replace("%data%", school.majors);
 			var formattedSchoolLocation = HTMLschoolLocation.replace("%data%",school.location);
 
 			var formattedSchoolNameDegree =  formattedSchoolName + formattedSchoolDegree ;
